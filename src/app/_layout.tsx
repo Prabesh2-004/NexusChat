@@ -27,7 +27,7 @@ function RootLayoutNav() {
 
   useEffect(() => {
     if (session) {
-      router.replace("/(chat)");
+      router.replace("/(main)/(chat)");
     } else {
       router.replace("/(auth)/auth");
     }

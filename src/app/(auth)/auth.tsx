@@ -32,7 +32,7 @@ export default function Auth() {
       type: "email",
     });
     if (error) return setError(error.message);
-    router.replace("/(chat)");
+    router.replace("/(main)/(chat)");
   }
 
   return (
